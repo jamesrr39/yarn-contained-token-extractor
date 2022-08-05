@@ -6,4 +6,6 @@ function someUsefulFunction() {
     console.log('hello');
 }
 
-export default someUsefulFunction;
+module.exports = {
+    myfunc: someUsefulFunction
+};
